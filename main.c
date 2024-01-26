@@ -5,7 +5,7 @@
 #include "functions.h"
 
 /*
-sources for assignment 3:
+Sources:
 
 fgets(): https://www.tutorialspoint.com/c_standard_library/c_function_fgets.htm
 sscanf(): https://www.tutorialspoint.com/c_standard_library/c_function_sscanf.htm
@@ -19,8 +19,6 @@ Jacobian Method: https://byjus.com/maths/jacobian-method/#:~:text=Given%20an%20e
 
 int main(int argc, char *argv[])
 {
-    // <Handle the inputs here>
-
     const char *filename = argv[1];
 
     //Handling invalid inputs
@@ -44,7 +42,7 @@ int main(int argc, char *argv[])
         b[i] = 1.0;
     }
 
-    // <The rest of your code goes here>
+   
     //Stop criteria for the Jacobi method
     int max_iterations = 10000;    
     double tolerance = 1e-16;
